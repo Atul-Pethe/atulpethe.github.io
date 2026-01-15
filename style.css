@@ -1,60 +1,49 @@
-/* --- Global Layout --- */
-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  max-width: 900px;
-  margin: 60px auto;
-  padding: 0 20px;
-  line-height: 1.7;
-  color: #222;
-  background: #fafafa;
-}
+<body>
+  <header>
+    <h1>Atul Pethe</h1>
+    <p class="subtitle">Engineering & Computer Science</p>
+  </header>
 
-/* --- Header --- */
-header {
-  text-align: center;
-  margin-bottom: 60px;
-}
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Engineering / CS student focused on systems, hardware, and building reliable software.
+      Interested in low-level computing, embedded systems, and robotics.
+    </p>
+  </section>
 
-h1 {
-  font-size: 3rem;
-  margin-bottom: 0.2rem;
-}
+  <section>
+    <h2>Projects</h2>
 
-.subtitle {
-  font-size: 1.2rem;
-  color: #555;
-}
+    <div class="project-card">
+      <h3>Digital Logic & Verilog</h3>
+      <p>
+        Designed and simulated finite state machines, counters, and datapaths using Verilog.
+      </p>
+      <p><strong>Skills:</strong> Verilog, ModelSim, FSM design</p>
+    </div>
 
-/* --- Section Titles --- */
-h2 {
-  margin-top: 3rem;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 0.4rem;
-}
+    <div class="project-card">
+      <h3>Embedded Systems</h3>
+      <p>
+        Worked with microcontrollers, timers, interrupts, and hardware/software integration.
+      </p>
+      <p><strong>Skills:</strong> C, ARM, timing analysis</p>
+    </div>
 
-/* --- Project Cards --- */
-.project-card {
-  background: white;
-  padding: 20px;
-  margin: 20px 0;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-}
+    <div class="project-card">
+      <h3>Robotics</h3>
+      <p>
+        Built control logic, sensor integration, and real-time behavior for small robots.
+      </p>
+      <p><strong>Skills:</strong> Control systems, sensors, real-time constraints</p>
+    </div>
 
-.project-card h3 {
-  margin-top: 0;
-}
+  </section>
 
-.project-card p {
-  margin-bottom: 0.5rem;
-}
-
-/* --- Links --- */
-a {
-  color: #0066cc;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
+  <section>
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+    <p>GitHub: <a href="https://github.com/atul-pethe">github.com/atul-pethe</a></p>
+  </section>
+</body>
